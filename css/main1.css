@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width:800px) {
+    .wrapper {
+        width: 100%;
+        height: 100vh;
+      }
+      .wrapper h1{
+          font-size: 25px;
+          font-weight: bold;
+          text-transform: capitalize;
+          text-align: center;
+          margin: 20px auto;
+      }
+      .parent {
+        width: 85%;
+        height: 100vh;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 568px 1fr;
+        grid-template-rows: 360px 1fr;
+        gap: 15px;
+      }
+      .parent .child {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+      }
+      .parent .child:nth-of-type(1) {
+        background-image: url(../img/wp6690516.jpg);
+        background-size: cover;
+      }
+      .parent .child .box1 {
+          margin-left: 5px;
+      }
+      .parent .child .box1 h4{
+          font-size: 10px;
+          font-weight: normal;
+          color: #494949;
+          margin: 10px 10px;
+      }
+      .parent .child .box1 h2{
+          font-size: 20px;
+          font-weight: normal;
+          color: #494949;
+          margin: 10px 10px;
+      }
+      .parent .child .box1 span{
+          font-size: 15px;
+          font-weight: bold;
+          color: #685BC7;
+          margin: 10px 10px;
+      }
+      .parent .child .box1 del{
+          font-size: 15px;
+          font-weight: bold;
+          color: rgb(130, 130, 130);
+          margin: 10px 10px;
+      }
+      .parent .child .box1 img {
+        width: 228px;
+        height: 227px;
+        object-fit: cover;
+      }
+      .parent .child .box2 {
+          margin-left: 10px;
+      }
+      .parent .child .box2 img {
+        width: 228px;
+        height: 227px;
+        object-fit: cover;
+      }
+      .parent .child .box2 h4{
+          font-size: 10px;
+          font-weight: normal;
+          color: #494949;
+          margin: 10px 10px;
+      }
+      .parent .child .box2 h2{
+          font-size: 20px;
+          font-weight: normal;
+          color: #494949;
+          margin: 10px 10px;
+      }
+      .parent .child .box2 span{
+          font-size: 15px;
+          font-weight: bold;
+          color: #685BC7;
+          margin: 10px 10px;
+      }
+      .parent .child .box2 del{
+          font-size: 15px;
+          font-weight: bold;
+          color: rgb(130, 130, 130);
+          margin: 10px 10px;
+      }
+      .parent .child .box3 {
+       margin-left: 5px;
+      }
+      .parent .child .box3 img {
+        width: 228px;
+        height: 227px;
+        object-fit: cover;
+      }
+      .parent .child .box3 h4{
+          font-size: 10px;
+          font-weight: normal;
+          color: #494949;
+          text-transform: capitalize;
+          margin: 10px 10px;
+      }
+      .parent .child .box3 h2{
+          font-size: 20px;
+          font-weight: normal;
+          color: #494949;
+          text-transform: capitalize;
+          margin: 10px 5px;
+      }
+      .parent .child .box3 span{
+          font-size: 15px;
+          font-weight: bold;
+          color: #2b2b2b;
+          text-transform: capitalize;
+          margin: 10px 10px;
+      }
+      .child .box1 img:hover{
+          transform: scale(1.05);
+      }
+      .child .box2 img:hover{
+          transform: scale(1.05);
+      }
+      .child .box3 img:hover{
+          transform: scale(1.05);
+      }      
+}
+@media  screen and (max-width:800px) {
+    
+}
